@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background: #f5f6f7;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #1c1e21;
+}
+
+/* MAIN */
+
+.main {
+  flex: 1;
+  display: flex;
+}
+
+/* LEFT */
+
+.left {
+  width: 55%;
+  background: #f7f8f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #e2e5e9;
+  position: relative;
+}
+
+/* LOGO */
+
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  width: 48px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+/* HEADING */
+
+.heading {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 520px;
+  line-height: 1.3;
+  margin-bottom: 40px;
+}
+
+.heading span {
+  background: linear-gradient(90deg, #ff5f6d, #ff0066, #d300c5);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* PHOTO */
+
+.photo {
+  width: 320px;
+}
+
+.photo img {
+  width: 100%;
+}
+
+/* RIGHT */
+
+.right {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+
+/* LOGIN BOX */
+
+.login {
+  width: 420px;
+}
+
+.login h3 {
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+
+/* INPUT */
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 14px;
+  border-radius: 14px;
+  border: 1px solid #d5d9de;
+  background: #f2f3f5;
+  font-size: 15px;
+  outline: none;
+}
+
+/* LOGIN BUTTON */
+
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 28px;
+  border: none;
+  background: #99C1F3;
+  color: white;
+  font-size: 16px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.login-btn:hover{
+    background: #2b7cff;
+}
+
+/* FORGET PASSWORD */
+
+.fg-pass {
+  text-align: center;
+  margin: 16px 0;
+  font-size: 14px;
+}
+
+.fg-pass:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* FACEBOOK */
+
+.fb {
+  width: 100%;
+  padding: 14px;
+  border-radius: 28px;
+  border: 1px solid #d5d9de;
+  background: #f7f8f9;
+  margin-top: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fb:hover{
+    background: rgb(234, 233, 233);
+}
+
+/* CREATE ACCOUNT */
+
+.create {
+  width: 100%;
+  padding: 14px;
+  border-radius: 28px;
+  border: 1.5px solid #2b7cff;
+  background: white;
+  color: #2b7cff;
+  margin-top: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.create:hover{
+    background: #2b7cff;
+    color: white;
+}
+
+/* META */
+
+.meta {
+  text-align: center;
+  margin-top: 22px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* FOOTER */
+
+.footer {
+  border-top: 1px solid #e3e6ea;
+  padding: 14px;
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+  background: #fafafa;
+}
+
+.footer a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: #777;
+}
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+  .left {
+    display: none;
+  }
+
+  .right {
+    width: 100%;
+  }
+}

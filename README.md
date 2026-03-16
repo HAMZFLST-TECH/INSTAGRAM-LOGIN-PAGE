@@ -21,15 +21,16 @@ View the project live here: **<a href="https://hamzflst-tech.github.io/INSTAGRAM
 ## 📂 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   git clone https://github.com/HAMZFLST-TECH/INSTAGRAM-LOGIN-PAGE
+   
 Navigate to the folder:
 
-Bash
-cd your-repo-name
+cd INSTAGRAM-LOGIN-PAGE
+
 Open index.html in your browser.
 
 
-Created as a UI/UX practice project.
+## Created as a UI/UX practice project.
 
 ## 👤 Author
 HAMZFLST.TECH Building tools to make the web more beautiful.

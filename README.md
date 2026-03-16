@@ -1,4 +1,4 @@
-# Instagram Login UI Clone 📸
+# Instagram Login Page UI 📸
 
 A pixel-perfect recreation of the Instagram login page built using **pure HTML5 and CSS3**. This project focuses on layout precision, responsive design, and replicating a modern user interface without external libraries or frameworks.
 

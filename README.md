@@ -5,8 +5,6 @@ A pixel-perfect recreation of the Instagram login page built using **pure HTML5 
 <img src="https://img.shields.io/badge/license-MIT-purple"> <img src="https://img.shields.io/badge/made%20with-HTML%20CSS-orange">
 </p>
 
-## 🚀 Live Demo
-View the project live here: **<a href="https://hamzflst-tech.github.io/INSTAGRAM-LOGIN-PAGE"><strong>View Live Demo »</strong></a>**
 
 ## ✨ Features
 * **Pure HTML/CSS:** No frameworks, no JavaScript—just clean, semantic code.
